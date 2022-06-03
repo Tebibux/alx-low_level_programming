@@ -1,9 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/*
+ *main - the excution starts
+ *
+ *int n; - variable initialization 
+ *
+ * nested if condition starts
+ *
+ * checks if n < 0;
+ *	print negative
+ *
+ * checks if n == 0;
+ * 	print zero
+ *
+ * cheks if n > 0 ;
+ * 	print positive
+ *
+ *
+ * */
 int main(void)
 {
 	int n;
@@ -25,3 +41,8 @@ int main(void)
 	}
 	return (0);
 }
+
+
+
+
+
