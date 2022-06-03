@@ -8,7 +8,7 @@
 int main(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwzyz";
-	int l;
+	int i;
 
 	for (i = 0; i < 26; i ++)
 	{
