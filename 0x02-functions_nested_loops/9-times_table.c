@@ -4,8 +4,6 @@
  * times_table - shows the multiplication of an intiger 0-9
  *
  * @a: horzontal row
- * @b: vetical column
- * @op: product of row*column
  *
  * Return: the value of the product
  */
