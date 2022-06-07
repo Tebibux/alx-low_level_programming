@@ -3,7 +3,7 @@
 /**
  * _abs: compute the absolut value
  *
- *@i: input integer.
+ * @i: input integer.
  *
  * Return: returns the absolut value
  */
