@@ -5,7 +5,7 @@
  *
  * Return - returns teh absolut value
  */
-int _abs(int)
+int _abs(int i)
 {
-	return (abs(int));
+	return (abs(i));
 }
