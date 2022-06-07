@@ -3,10 +3,18 @@
 /**
  * _abs: compute the absolut value
  *
- * Return - returns teh absolut value
+ *@i: inputed integer.
+ *
+ * Return - returns the absolut value
  */
 int _abs(int i)
 {
-	i = abs(i);
-	return (i);
+	if (i >= 0)
+	{
+		return (i);
+	}
+	else
+	{
+		return (i * -1);
+	}
 }
