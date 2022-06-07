@@ -3,23 +3,35 @@
 /**
  * times_table - shows the multiplication of an intiger 0-9
  *
- * @i: horzontal row
- * @j: vetical column
+ * @a: horzontal row
+ * @b: vetical column
+ * @op: product of row*column
  *
  * Return: the value of the product
  */
 void times_table(void)
 {
-	int i, j, p;
+	int a, b, op;
 
-	for (i >= 0; i < 10; i++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (j >= 0; j < 10; j++)
+		_putchar(48);
+		for (b = 1; b <= 9; b++)
 		{
-			p = i*j;
-			return (p);
+			op = a * b;
+			_putchar(44);
+			_putchar(32);
+			if (op <= 9)
+			{
+				_putchar(32);
+				_putchar(op + 48);
+			}
+			else
+			{
+				_putchar((op / 10) + 48);
+				_putchar((op % 10) + 48);
+			}
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
