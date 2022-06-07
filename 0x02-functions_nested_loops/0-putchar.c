@@ -11,7 +11,6 @@ int main(void)
 	int strt, sz;	
 
 	sz = sizeof(str) / sizeof(int);
-	
 	for (strt = 0; strt < sz; strt++)
 	{
 		_putchar(str[strt]);
