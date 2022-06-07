@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * print_sign: print the sign of the value and print the approximate sign
- * greter, equal or less than zero
+ * print_sign - print the sign of the value and print the approximate signgreter, equal or less than zero
  *
- *@n: The varialbe inputed
+ * @n: The varialbe inputed
  *
- * Return - 1 if @n > 0, 0 if @n == 0 and -1 if @n < 0
+ * Return: 1 if @n > 0, 0 if @n == 0 and -1 if @n < 0
  */
 int print_sign(int n)
 {
