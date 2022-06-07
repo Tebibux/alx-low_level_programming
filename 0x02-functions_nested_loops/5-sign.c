@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - print the sign of the value and print the approximate signgreter, equal or less than zero
+ * print_sign - print the sign of the value and sign
  *
  * @n: The varialbe inputed
  *
