@@ -3,8 +3,6 @@
 /**
  * times_table - shows the multiplication of an intiger 0-9
  *
- * @a: horzontal row
- *
  * Return: the value of the product
  */
 void times_table(void)
