@@ -3,7 +3,7 @@
 /**
  * print_sign: print the sign of the value and print the approximate sign
  *
- *@n - the varialbe inputed
+ *@n: the varialbe inputed
  *
  * Return - 1 if @n > 0, 0 if @n == 0 and -1 if @n < 0
  */
