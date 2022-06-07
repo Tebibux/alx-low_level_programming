@@ -2,8 +2,9 @@
 
 /**
  * print_sign: print the sign of the value and print the approximate sign
+ * greter, equal or less than zero
  *
- *@n: the varialbe inputed
+ *@n: The varialbe inputed
  *
  * Return - 1 if @n > 0, 0 if @n == 0 and -1 if @n < 0
  */
