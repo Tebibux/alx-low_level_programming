@@ -3,9 +3,9 @@
 /**
  * _abs: compute the absolut value
  *
- *@i: inputed integer.
+ *@i: input integer.
  *
- * Return - returns the absolut value
+ * Return: returns the absolut value
  */
 int _abs(int i)
 {
