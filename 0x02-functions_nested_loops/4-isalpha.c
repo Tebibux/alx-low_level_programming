@@ -8,7 +8,7 @@
  *
  * Return: 1 for lowercase character. 0 for the rest.
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
