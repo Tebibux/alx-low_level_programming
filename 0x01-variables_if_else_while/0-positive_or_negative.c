@@ -3,30 +3,18 @@
 #include <time.h>
 
 /*
- *main - the excution starts
+ * main - the excution starts
  *
- *int n; - variable initialization 
+ * @n; - variable initialization 
  *
- * nested if condition starts
- *
- * checks if n < 0;
- *	print negative
- *
- * checks if n == 0;
- * 	print zero
- *
- * cheks if n > 0 ;
- * 	print positive
- *
- *
+ * Return: 0 if success
  * */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+
 	if (n < 0)
 	{
 		printf("%d is negative\n", n);
