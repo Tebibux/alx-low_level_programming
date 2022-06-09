@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * mul - checks if parameter is an uppercase character.
+ * mul - multiplies two intiger.
  * @a: input intiger.
  * @b: input intiger.
- * Return: return the multipilication of i*j.
+ * Return: return the multipilication of a*b.
  */
 int mul(int a, int b)
 {
