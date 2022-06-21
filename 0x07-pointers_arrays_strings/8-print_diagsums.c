@@ -13,7 +13,7 @@ void print_diagsums(int *a, int size)
 	int sum1 = 0;
 	int sum2 = 0;
 
-	while (i < (size * size))
+	for (i; i < (size * size); i++)
 	{
 		if (i % (size + 1) == 0)
 		{
@@ -23,7 +23,6 @@ void print_diagsums(int *a, int size)
 		{
 			sum2 = sum2 + *(a + 1);
 		}
-		i++;
 	}
 	printf("%d, %d\n", sum1, sum2);
 }
