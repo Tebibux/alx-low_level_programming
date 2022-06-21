@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_diagsumes - print the diagonal sum with each side
+ * print_diagsums - print the diagonal sum with each side
  * @i: iterator
  * @sum1: the size + i
  * @sum2: the size - i
@@ -10,9 +10,7 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i = 0;
-	int sum1 = 0;
-	int sum2 = 0;
+	int i = 0, sum1 = 0, sum2 = 0;
 
 	while (i < (size * size))
 	{
