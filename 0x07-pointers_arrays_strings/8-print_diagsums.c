@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsumes - print the diagonal sum with each side
@@ -13,7 +14,7 @@ void print_diagsums(int *a, int size)
 	int sum1 = 0;
 	int sum2 = 0;
 
-	for (i; i < (size * size); i++)
+	while (i < (size * size))
 	{
 		if (i % (size + 1) == 0)
 		{
@@ -23,6 +24,7 @@ void print_diagsums(int *a, int size)
 		{
 			sum2 = sum2 + *(a + 1);
 		}
+		i++;
 	}
 	printf("%d, %d\n", sum1, sum2);
 }
