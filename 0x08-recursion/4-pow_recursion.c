@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - calculate the intiger power to intiger
- * @n: the base intiger
+ * @x: the base intiger
  * @y: the power intiger
  * Return: return the result
  */
@@ -15,8 +15,10 @@ int _pow_recursion(int x, int y)
 	else if (y > 0)
 	{
 		y--;
-		return (x * _pow_recursion(x,y));
+		return (x * _pow_recursion(x, y));
 	}
 	else
+	{
 		return 1;
+	}
 }
