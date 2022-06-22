@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - puts a sting in recurion
- * @s: string that be in the sting 
+ * @s: string that be in the sting
  * Return: nothing
  */
 void _puts_recursion(char *s)
