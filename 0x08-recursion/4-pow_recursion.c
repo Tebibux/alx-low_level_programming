@@ -12,7 +12,7 @@ int _pow_recursion(int x, int y)
 	{
 		return -1;
 	}
-	else if (n != 0)
+	else if (x != 0)
 	{
 		y--;
 		return (n * _pow_recursion(n,y));
