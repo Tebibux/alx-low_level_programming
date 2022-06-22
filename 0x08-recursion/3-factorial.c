@@ -3,13 +3,13 @@
 /**
  * factorial - calculate the factorial of an intiger
  * @n: intiger
- * Return: return factorial 
+ * Return: return factorial
  */
 int factorial(int n)
 {
 	if (n < 0)
 	{
-		return -1;
+		return (-1);
 	}
 	else if (n)
 	{
@@ -17,6 +17,6 @@ int factorial(int n)
 	}
 	else
 	{
-		return 1;
+		return (1);
 	}
 }
