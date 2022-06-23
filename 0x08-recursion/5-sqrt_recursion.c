@@ -7,15 +7,15 @@
  */
 int _sqrt_recursion(int n)
 {
-	int x = 0.01;
 	int i;
+	i = 0.01;
 	if (n < 0)
 	{
 		return (-1);
 	}
-	else if (i = x && i*i < n)
+	else if (i*i < n)
 	{
-		x++;
+		i++;
 		return _sqrt_recursion(n);
 	}
 	else
