@@ -8,8 +8,8 @@
 int _sqrt_recursion(int n)
 {
 	int i;
-	i = 0.01;
 
+	i = 0.01;
 	if (n < 0)
 	{
 		return (-1);
