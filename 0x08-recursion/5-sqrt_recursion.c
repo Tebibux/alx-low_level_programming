@@ -9,14 +9,15 @@ int _sqrt_recursion(int n)
 {
 	int i;
 	i = 0.01;
+
 	if (n < 0)
 	{
 		return (-1);
 	}
-	else if (i*i < n)
+	else if (i * i < n)
 	{
 		i++;
-		return _sqrt_recursion(n);
+		return (_sqrt_recursion(n));
 	}
 	else
 	{
