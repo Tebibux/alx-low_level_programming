@@ -1,13 +1,11 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * name - return the argument passed to pirnt the object
  * Return: nothing
  */
-int name(int argc, char* argv[])
+int main(int argc __attribute__((unused)), char* argv[])
 {
-	if (argc != '\0' && argc == 0)
-	{
-		_putchar("%s", argv[i]);
-	}
+	printf("%s\n", argv[0]);
+	return (0);
 }
