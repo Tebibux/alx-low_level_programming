@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * name - return the argument passed to pirnt the object
- * Return: nothing
+ * main - return the argument passed to pirnt the object
+ * Return: 0 if success
  */
 int main(int argc __attribute__((unused)), char* argv[])
 {
