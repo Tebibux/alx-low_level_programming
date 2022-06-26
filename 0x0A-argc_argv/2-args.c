@@ -2,7 +2,7 @@
 
 /**
  * main - prints the command passed in new line
- * @i: iterator initger
+ * @i: intiger
  * @argc: position of argument passed
  * @argv: an arrays of string
  * Return: 0 if success
