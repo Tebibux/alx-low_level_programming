@@ -3,6 +3,7 @@
 /**
  * main - prints the number of argument 
  * @argc: intiger
+ * @i: initiger value 
  * @argv: arrays of argument name
  * @i: size equalizer
  * Return: 0 if seccess
