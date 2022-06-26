@@ -5,15 +5,13 @@
  * main - multiplies the argument after the name
  * @argc: intiger argument passed to the func
  * @argv: the array of string
- * @i: used to iterate 
- * @mul: used to calculate the multips
  * Return: 0 if success
  */
 int main(int argc, char* argv[])
 {
 	int i;
 	int mul;
-	
+
 	mul = 1;
 	if (argc > 1)
 	{
