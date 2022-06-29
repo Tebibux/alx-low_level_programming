@@ -14,34 +14,40 @@ char *str_concat(char *s1, char *s2)
 	
 	i = 0;
 	j = 0;
-	k = 0;
 	if (s1 == NULL)
 	{
 		s1 = "";
 	}
+
 	if (s2 == NULL)
 	{
 		s2 = "";
 	}
+
 	while (s1[i] != '\0')
 	{
 		i++;
 	}
+
 	while (s2[j] != '\0')
         {
                	j++;
         }
+
 	prt = malloc(sizeof(char) * (i + j + 1));
+	
 	if (prt == NULL)
 	{
 		free (prt);
 		return (NULL);
 	}
-	while (k <= i)
+
+	while (k < i)
 	{
 		prt[k] = s1 [k];
 		k++;
 	}
+
 	limit = j;
 	while (j <= limit)
 	{
