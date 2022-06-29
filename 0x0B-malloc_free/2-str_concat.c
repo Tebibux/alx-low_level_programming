@@ -40,11 +40,13 @@ char *str_concat(char *s1, char *s2)
 	while (k <= i)
 	{
 		prt[k] = s1 [k];
+		k++;
 	}
 	limit = j;
 	while (j <= limit)
 	{
 		prt[k] = s2[j];
+		j++;
 	}
 	return (prt);
 }
