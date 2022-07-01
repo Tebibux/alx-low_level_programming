@@ -5,7 +5,7 @@
  * _calloc - set array memory and sets zero
  * @nmenb: array to be filled
  * @size: calculate the size of an array
- * Return: 0 if success
+ * Return: returns pointer.
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -15,7 +15,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return NULL;
 	}
-	ptr = malloc(nmemb * size);
+	ptr = calloc(nmemb * size);
 	if (ptr == NULL)	
 	{
 		return NULL;
